@@ -1,0 +1,11 @@
+{
+  "id": "onetree-cannabis",
+  "slug": "onetree-cannabis",
+  "name": "Onetree Cannabis",
+  "description": "E-commerce focused cannabis storefront with warm tones, green primary, and product category showcase. Designed for Canadian recreational retailers with delivery and store locator features.",
+  "category": "modern",
+  "tags": ["e-commerce", "recreational", "canadian", "marketplace", "product-focused", "warm"],
+  "features": ["Product category showcase grid", "Store locator and order tracking features", "Blue accent value props section"],
+  "author": "BudStacks Platform",
+  "version": "1.0.0"
+}

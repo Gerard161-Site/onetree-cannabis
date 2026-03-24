@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Onetree Cannabis Template Styles ===== */
+:root {
+  --tenant-color-primary: 123 30% 56%;
+  --tenant-color-secondary: 225 20% 8%;
+  --tenant-color-accent: 199 100% 84%;
+  --tenant-color-background: 0 0% 100%;
+  --tenant-color-surface: 220 33% 98%;
+  --tenant-color-text: 0 0% 12%;
+  --tenant-color-heading: 225 20% 8%;
+  --tenant-color-border: 0 0% 88%;
+  --tenant-font-base: 'Rubik', system-ui, sans-serif;
+  --tenant-font-heading: 'Rubik', system-ui, sans-serif;
+  --tenant-blur-sm: 8px;
+  --tenant-blur-md: 16px;
+  --tenant-blur-lg: 24px;
+}
+
+/* ===== Hero — Warm blush background ===== */
+.template-onetree-cannabis #hero {
+  --tenant-color-surface: 0 19% 95%;
+  --tenant-color-background: 0 19% 95%;
+}
+
+/* ===== Product Categories — Light surface ===== */
+.template-onetree-cannabis #categories {
+  --tenant-color-surface: 220 33% 98%;
+  --tenant-color-background: 220 33% 98%;
+}
+
+/* Category cards — subtle green-tinted shadow on hover */
+.template-onetree-cannabis #categories .rounded-2xl,
+.template-onetree-cannabis #categories [class*="card"] {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.template-onetree-cannabis #categories .rounded-2xl:hover,
+.template-onetree-cannabis #categories [class*="card"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -4px rgba(109, 176, 112, 0.12);
+}
+
+/* ===== Services/Features — white bg ===== */
+.template-onetree-cannabis #services {
+  --tenant-color-surface: 0 0% 100%;
+  --tenant-color-background: 0 0% 100%;
+}
+
+/* ===== Why Us — Blue accent background ===== */
+.template-onetree-cannabis #why-us {
+  --tenant-color-surface: 199 100% 84%;
+  --tenant-color-background: 199 100% 84%;
+  --tenant-color-heading: 225 20% 8%;
+  --tenant-color-text: 230 5% 23%;
+}
+
+/* Value prop cards on blue bg — white cards with dark text */
+.template-onetree-cannabis #why-us .rounded-2xl,
+.template-onetree-cannabis #why-us [class*="card"] {
+  --tenant-color-heading: 225 20% 8%;
+  --tenant-color-text: 0 0% 12%;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== Promotions CTA — green gradient ===== */
+.template-onetree-cannabis #promotions {
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 95%;
+}
+
+/* ===== Footer — dark treatment ===== */
+.template-onetree-cannabis footer {
+  --tenant-color-surface: 220 33% 98%;
+  --tenant-color-background: 220 33% 98%;
+  --tenant-color-heading: 225 20% 8%;
+  --tenant-color-text: 230 5% 23%;
+}
+
+/* ===== Global card styles ===== */
+.template-onetree-cannabis {
+  --shadow-card: 0 0 0 1px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(109, 176, 112, 0.06);
+  --shadow-elegant: 0 8px 24px -4px rgba(109, 176, 112, 0.1);
+}
+
+/* ===== Button overrides ===== */
+.template-onetree-cannabis [class*="btn-primary"],
+.template-onetree-cannabis button[class*="primary"] {
+  border-radius: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: all 0.25s ease;
+}
+
+.template-onetree-cannabis [class*="btn-primary"]:hover,
+.template-onetree-cannabis button[class*="primary"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(109, 176, 112, 0.25);
+}
+
+/* ===== Navigation enhancements ===== */
+.template-onetree-cannabis nav {
+  font-weight: 500;
+}
+
+/* ===== Section divider rhythm ===== */
+.template-onetree-cannabis section {
+  position: relative;
+}
+
+/* ===== Smooth scroll behavior ===== */
+.template-onetree-cannabis {
+  scroll-behavior: smooth;
+}
+
+/* ===== Heading treatment — Rubik 600 with tight tracking ===== */
+.template-onetree-cannabis h1,
+.template-onetree-cannabis h2,
+.template-onetree-cannabis h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+/* ===== Label/subtitle treatment — Rubik 500 uppercase ===== */
+.template-onetree-cannabis [class*="subtitle"],
+.template-onetree-cannabis [class*="label"] {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.875rem;
+}

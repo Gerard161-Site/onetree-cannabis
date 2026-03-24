@@ -1,0 +1,169 @@
+{
+  "version": "1.0.0",
+  "navigation": "NavFull",
+  "sections": [
+    {
+      "type": "HeroSplit",
+      "id": "hero",
+      "config": {
+        "textAlign": "left",
+        "ctaText": "Shop Now",
+        "secondaryCtaText": "Explore Stores",
+        "secondaryCtaHref": "/products",
+        "contentPosition": "left",
+        "animation": "fade-up"
+      }
+    },
+    {
+      "type": "LogoMarquee",
+      "id": "partners",
+      "config": {
+        "heading": "Trusted Brands",
+        "logos": [
+          { "src": "assets/brand-1.png", "alt": "Partner Brand 1" },
+          { "src": "assets/brand-2.png", "alt": "Partner Brand 2" },
+          { "src": "assets/brand-3.png", "alt": "Partner Brand 3" },
+          { "src": "assets/brand-4.png", "alt": "Partner Brand 4" },
+          { "src": "assets/brand-5.png", "alt": "Partner Brand 5" },
+          { "src": "assets/brand-6.png", "alt": "Partner Brand 6" }
+        ],
+        "speed": 50
+      }
+    },
+    {
+      "type": "ProductShowcase",
+      "id": "categories",
+      "config": {
+        "heading": "Shop by Popular Categories",
+        "subtitle": "About Onetree",
+        "animation": "fade-up",
+        "categories": [
+          {
+            "title": "Dried Flower",
+            "description": "Premium quality cannabis flower, carefully cultivated and cured.",
+            "imageUrl": "assets/category-flower.png",
+            "href": "/products?category=dried-flower"
+          },
+          {
+            "title": "Pre-Rolls",
+            "description": "Ready-to-enjoy pre-rolled joints in a variety of strains.",
+            "imageUrl": "assets/category-prerolls.png",
+            "href": "/products?category=pre-rolls"
+          },
+          {
+            "title": "Edibles",
+            "description": "Delicious cannabis-infused edibles for a measured experience.",
+            "imageUrl": "assets/category-edibles.png",
+            "href": "/products?category=edibles"
+          },
+          {
+            "title": "510 Thread Cartridges",
+            "description": "Compatible cartridges for smooth, consistent vaping.",
+            "imageUrl": "assets/category-carts.png",
+            "href": "/products?category=cartridges"
+          },
+          {
+            "title": "Concentrates",
+            "description": "High-potency extracts for experienced consumers.",
+            "imageUrl": "assets/category-concentrates.png",
+            "href": "/products?category=concentrates"
+          },
+          {
+            "title": "Oils & Capsules",
+            "description": "Precise dosing options for wellness-focused use.",
+            "imageUrl": "assets/category-oils.png",
+            "href": "/products?category=oils"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Features",
+      "id": "services",
+      "config": {
+        "heading": "Excellence in Every Leaf",
+        "subtitle": "We are committed to transparency, quality, and customer satisfaction.",
+        "animation": "fade-up",
+        "items": [
+          {
+            "title": "Find a Cannabis Store",
+            "description": "Use our store locator to find hours of operation, contact information and directions for nearby locations.",
+            "icon": "Globe"
+          },
+          {
+            "title": "Track Your Order",
+            "description": "Use your delivery order number to follow your products from our distribution centre to your doorstep.",
+            "icon": "Truck"
+          },
+          {
+            "title": "Government of Canada - Cannabis",
+            "description": "Access official health and regulatory information about cannabis in Canada.",
+            "icon": "Shield"
+          },
+          {
+            "title": "Legal Use of Cannabis",
+            "description": "Stay informed about your rights and responsibilities as a cannabis consumer.",
+            "icon": "Check"
+          },
+          {
+            "title": "Shopping, Shipping and Delivery",
+            "description": "Learn about our shipping policies and delivery options across Canada.",
+            "icon": "Truck"
+          },
+          {
+            "title": "Integrity Reporting Line",
+            "description": "Our commitment to ethical business practices and accountability.",
+            "icon": "Eye"
+          }
+        ]
+      }
+    },
+    {
+      "type": "ValueProps",
+      "id": "why-us",
+      "config": {
+        "heading": "Prime products at the tip of your fingers.",
+        "subtitle": "We offer shipping to all provinces and territories, ensuring that no matter where you are in Canada, we can get your order to you.",
+        "animation": "fade-up",
+        "items": [
+          {
+            "title": "Popular FAQs",
+            "description": "Find answers to the most commonly asked questions about our products and services.",
+            "icon": "Heart"
+          },
+          {
+            "title": "Delivery Options",
+            "description": "Flexible shipping and delivery across all Canadian provinces and territories.",
+            "icon": "Truck"
+          },
+          {
+            "title": "Shop All Products",
+            "description": "Browse our full catalog of premium cannabis products and accessories.",
+            "icon": "Star"
+          },
+          {
+            "title": "Shop All Brands",
+            "description": "Explore our curated selection of trusted cannabis brands.",
+            "icon": "Award"
+          }
+        ]
+      }
+    },
+    {
+      "type": "CTABanner",
+      "id": "promotions",
+      "config": {
+        "heading": "Weekly Promotions & Weekly Featured Brands",
+        "subtitle": "Discover new deals and featured brands every week. Don't miss out on our latest offerings.",
+        "ctaText": "View Deals",
+        "animation": "fade-up"
+      }
+    }
+  ],
+  "footer": "FooterBrand",
+  "settings": {
+    "wrapperClass": "template-onetree-cannabis",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap",
+    "sectionPadding": "2rem/3rem/4rem"
+  }
+}

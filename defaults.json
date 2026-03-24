@@ -1,0 +1,181 @@
+{
+  "template": "onetree-cannabis",
+  "slug": "onetree-cannabis",
+  "logoPath": null,
+  "heroImagePath": "assets/hero.png",
+  "heroVideoPath": null,
+  "primaryColor": "123 30% 56%",
+  "fontFamily": "'Rubik', system-ui, sans-serif",
+  "designSystem": {
+    "colors": {
+      "primary-scale": {
+        "50": "123 30% 96%",
+        "100": "123 30% 90%",
+        "200": "123 30% 80%",
+        "300": "123 30% 68%",
+        "400": "123 30% 56%",
+        "500": "123 35% 45%",
+        "600": "123 38% 36%",
+        "700": "123 40% 28%",
+        "800": "123 42% 20%",
+        "900": "123 45% 12%"
+      },
+      "primary": "123 30% 56%",
+      "secondary": "225 20% 8%",
+      "accent": "199 100% 84%",
+      "background": "0 0% 100%",
+      "surface": "220 33% 98%",
+      "text": "0 0% 12%",
+      "heading": "225 20% 8%",
+      "border": "0 0% 88%",
+      "success": "142 76% 36%",
+      "warning": "38 92% 50%",
+      "error": "0 72% 51%",
+      "info": "199 89% 48%"
+    },
+    "typography": {
+      "fontFamily": "'Rubik', system-ui, sans-serif",
+      "headingFamily": "'Rubik', system-ui, sans-serif",
+      "headingWeight": "600",
+      "bodyWeight": "400",
+      "labelWeight": "500",
+      "scale": {
+        "xs": "0.75rem",
+        "sm": "0.875rem",
+        "base": "1rem",
+        "lg": "1.125rem",
+        "xl": "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3.5rem"
+      },
+      "letterSpacing": {
+        "tight": "-0.01em",
+        "normal": "0",
+        "wide": "0.025em",
+        "wider": "0.05em"
+      },
+      "lineHeight": {
+        "tight": "1.15",
+        "normal": "1.5",
+        "relaxed": "1.75"
+      }
+    },
+    "shadows": {
+      "sm": "0 1px 2px rgba(0,0,0,0.05)",
+      "md": "0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -2px rgba(0,0,0,0.05)",
+      "lg": "0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -4px rgba(0,0,0,0.04)",
+      "card": "0 0 0 1px rgba(0,0,0,0.03), 0 2px 8px rgba(109,176,112,0.06)",
+      "elegant": "0 8px 24px -4px rgba(109,176,112,0.1)"
+    },
+    "gradients": {
+      "primary": "linear-gradient(135deg, hsl(123 30% 56%) 0%, hsl(123 35% 45%) 100%)",
+      "accent": "linear-gradient(135deg, hsl(199 100% 84%) 0%, hsl(199 80% 70%) 100%)",
+      "hero": "linear-gradient(135deg, hsl(0 19% 95%) 0%, hsl(220 33% 98%) 100%)"
+    },
+    "spacing": {
+      "section": "5rem",
+      "container": "1.5rem",
+      "card": "2rem"
+    },
+    "borderRadius": {
+      "sm": "0.375rem",
+      "md": "0.75rem",
+      "lg": "1rem",
+      "xl": "1.5rem",
+      "2xl": "2rem",
+      "full": "9999px"
+    }
+  },
+  "valueProps": [
+    {
+      "title": "Popular FAQs",
+      "description": "Find answers to the most commonly asked questions about our products and services.",
+      "icon": "Heart"
+    },
+    {
+      "title": "Delivery Options",
+      "description": "Flexible shipping and delivery across all Canadian provinces and territories.",
+      "icon": "Truck"
+    },
+    {
+      "title": "Shop All Products",
+      "description": "Browse our full catalog of premium cannabis products and accessories.",
+      "icon": "Star"
+    },
+    {
+      "title": "Shop All Brands",
+      "description": "Explore our curated selection of trusted cannabis brands.",
+      "icon": "Award"
+    }
+  ],
+  "pageContent": {
+    "homeHeroTitle": "Discover a wide Selection of Premium Cannabis",
+    "homeHeroSubtitle": "Get your Cannabis!",
+    "homeHeroDescription": "Explore an extensive range of premium cannabis products, carefully curated for quality and variety.",
+    "aboutMission": "We are committed to transparency, quality, and customer satisfaction. Whether you're looking for the latest strains or expert guidance, Onetree Cannabis is your trusted partner.",
+    "educationHotspots": [
+      {
+        "id": "spot1",
+        "targetSectionId": "hero",
+        "x": 25,
+        "y": 50,
+        "title": "Premium Selection",
+        "description": "Browse our curated collection of premium cannabis products."
+      },
+      {
+        "id": "spot2",
+        "targetSectionId": "categories",
+        "x": 50,
+        "y": 30,
+        "title": "Product Categories",
+        "description": "Shop by category — from dried flower to oils and capsules."
+      }
+    ]
+  },
+  "navigation": {
+    "links": [
+      { "label": "About Us", "href": "/about" },
+      { "label": "Products", "href": "/products" },
+      { "label": "The Wire", "href": "/the-wire" },
+      { "label": "Contact Us", "href": "/contact" }
+    ],
+    "cta": { "label": "Shop Now", "href": "/products" },
+    "cta2": { "label": "Login", "href": "/login" },
+    "showCart": true
+  },
+  "footer": {
+    "tagline": "Experience the difference with cannabis products, carefully curated and lab-tested to ensure maximum effectiveness.",
+    "disclaimer": "All right reserved by Onetree Cannabis 2024. Must be 19+ to purchase. Please consume responsibly.",
+    "sections": [
+      {
+        "title": "Company",
+        "links": [
+          { "label": "Home", "href": "/" },
+          { "label": "About Us", "href": "/about" },
+          { "label": "Products", "href": "/products" },
+          { "label": "The Wire", "href": "/the-wire" },
+          { "label": "Contact Us", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Policies",
+        "links": [
+          { "label": "Accessibility", "href": "/about" },
+          { "label": "Return Policy", "href": "/terms" },
+          { "label": "Terms & Conditions", "href": "/terms" },
+          { "label": "Privacy Policy", "href": "/privacy" }
+        ]
+      },
+      {
+        "title": "Support",
+        "links": [
+          { "label": "FAQ", "href": "/faq" },
+          { "label": "Track Order", "href": "/dashboard" },
+          { "label": "Find a Store", "href": "/contact" }
+        ]
+      }
+    ]
+  }
+}
