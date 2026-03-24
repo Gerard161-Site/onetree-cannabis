@@ -3,31 +3,17 @@
   "navigation": "NavFull",
   "sections": [
     {
-      "type": "HeroSplit",
+      "type": "HeroFullScreen",
       "id": "hero",
       "config": {
         "textAlign": "left",
+        "heroType": "image",
         "ctaText": "Shop Now",
         "secondaryCtaText": "Explore Stores",
         "secondaryCtaHref": "/products",
-        "contentPosition": "left",
+        "overlayStyle": "dark",
+        "heroHeight": "80vh",
         "animation": "fade-up"
-      }
-    },
-    {
-      "type": "LogoMarquee",
-      "id": "partners",
-      "config": {
-        "heading": "Trusted Brands",
-        "logos": [
-          { "src": "assets/brand-1.png", "alt": "Partner Brand 1" },
-          { "src": "assets/brand-2.png", "alt": "Partner Brand 2" },
-          { "src": "assets/brand-3.png", "alt": "Partner Brand 3" },
-          { "src": "assets/brand-4.png", "alt": "Partner Brand 4" },
-          { "src": "assets/brand-5.png", "alt": "Partner Brand 5" },
-          { "src": "assets/brand-6.png", "alt": "Partner Brand 6" }
-        ],
-        "speed": 50
       }
     },
     {
@@ -41,38 +27,22 @@
           {
             "title": "Dried Flower",
             "description": "Premium quality cannabis flower, carefully cultivated and cured.",
-            "imageUrl": "assets/category-flower.png",
             "href": "/products?category=dried-flower"
           },
           {
             "title": "Pre-Rolls",
             "description": "Ready-to-enjoy pre-rolled joints in a variety of strains.",
-            "imageUrl": "assets/category-prerolls.png",
             "href": "/products?category=pre-rolls"
           },
           {
             "title": "Edibles",
             "description": "Delicious cannabis-infused edibles for a measured experience.",
-            "imageUrl": "assets/category-edibles.png",
             "href": "/products?category=edibles"
-          },
-          {
-            "title": "510 Thread Cartridges",
-            "description": "Compatible cartridges for smooth, consistent vaping.",
-            "imageUrl": "assets/category-carts.png",
-            "href": "/products?category=cartridges"
           },
           {
             "title": "Concentrates",
             "description": "High-potency extracts for experienced consumers.",
-            "imageUrl": "assets/category-concentrates.png",
             "href": "/products?category=concentrates"
-          },
-          {
-            "title": "Oils & Capsules",
-            "description": "Precise dosing options for wellness-focused use.",
-            "imageUrl": "assets/category-oils.png",
-            "href": "/products?category=oils"
           }
         ]
       }

@@ -21,10 +21,10 @@
   --tenant-blur-lg: 24px;
 }
 
-/* ===== Hero — Warm blush background ===== */
+/* ===== Hero — Full screen with dark overlay ===== */
 .template-onetree-cannabis #hero {
-  --tenant-color-surface: 0 19% 95%;
-  --tenant-color-background: 0 19% 95%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 95%;
 }
 
 /* ===== Product Categories — Light surface ===== */
@@ -76,10 +76,11 @@
 
 /* ===== Footer — dark treatment ===== */
 .template-onetree-cannabis footer {
-  --tenant-color-surface: 220 33% 98%;
-  --tenant-color-background: 220 33% 98%;
-  --tenant-color-heading: 225 20% 8%;
-  --tenant-color-text: 230 5% 23%;
+  --tenant-color-surface: 225 20% 8%;
+  --tenant-color-background: 225 20% 8%;
+  --tenant-color-heading: 0 0% 100%;
+  --tenant-color-text: 0 0% 80%;
+  --tenant-color-border: 225 15% 18%;
 }
 
 /* ===== Global card styles ===== */
